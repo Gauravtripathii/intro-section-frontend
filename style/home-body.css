@@ -1,0 +1,32 @@
+.home-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-body > h1 {
+  color: var(--Almost-Black);
+  margin-bottom: 25px;
+}
+
+.home-body > p {
+  color: var(--Medium-Gray);
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.home-body > span {
+  color: var(--Almost-White);
+  background-color: var(--Almost-Black);
+  border: 1px solid var(--Almost-Black);
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+/* .home-body > span:hover {
+    background-color: var(--Almost-White);
+    color: var(--Almost-Black);
+} */
