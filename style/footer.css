@@ -1,10 +1,10 @@
-.home-body > footer {
+footer {
     margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
 }
 
-.home-body > footer > img {
+footer > img {
   width: 20%;
   align-self: center;
 }

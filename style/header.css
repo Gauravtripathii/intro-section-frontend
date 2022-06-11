@@ -12,9 +12,14 @@ nav > .nav-items {
 }
 
 nav > .nav-items-visible {
+  background-color: var(--Almost-White);
+  position: absolute;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   width: 60vw;
+  height: 100vh;
+  margin-left: -60vw;
 }
 nav > .trans {
   background-color: rgba(0, 0, 0, 0.65);

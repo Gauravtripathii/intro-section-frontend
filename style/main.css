@@ -15,10 +15,11 @@
 .container {
   /* border: 2px solid red; */
   /* width: 100%; */
+  width: 100vw;
   height: 100vh;
   padding: 10px;
   font-family: "Rowdies", cursive;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
