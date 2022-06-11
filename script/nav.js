@@ -10,7 +10,47 @@ menuIcon.addEventListener("click", () => {
 });
 
 closeMenuIcon.addEventListener("click", () => {
-    menuIcon.style.display = "block";
-    navItems.className = "nav-items";
-    trans.style.display = "none";
-  });
+  menuIcon.style.display = "block";
+  navItems.className = "nav-items";
+  trans.style.display = "none";
+});
+
+//
+
+var downArrow = document.querySelector(".down-arrow");
+var upArrow = document.querySelector(".up-arrow");
+var features = document.querySelector(".features");
+
+downArrow.addEventListener("click", () => {
+  downArrow.style.display = "none";
+  upArrow.style.display = "block";
+  features.style.display = "flex";
+});
+upArrow.addEventListener("click", () => {
+  downArrow.style.display = "block";
+  upArrow.style.display = "none";
+  features.style.display = "none";
+});
+
+
+
+
+
+
+
+
+
+
+
+
+var downArrow2 = document.querySelector(".down-arrow2");
+var upArrow2 = document.querySelector(".up-arrow2");
+
+downArrow2.addEventListener("click", () => {
+  downArrow2.style.display = "none";
+  upArrow2.style.display = "block";
+});
+upArrow2.addEventListener("click", () => {
+  downArrow2.style.display = "block";
+  upArrow2.style.display = "none";
+});
