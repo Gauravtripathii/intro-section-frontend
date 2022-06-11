@@ -45,12 +45,15 @@ upArrow.addEventListener("click", () => {
 
 var downArrow2 = document.querySelector(".down-arrow2");
 var upArrow2 = document.querySelector(".up-arrow2");
+var company = document.querySelector(".company");
 
 downArrow2.addEventListener("click", () => {
   downArrow2.style.display = "none";
   upArrow2.style.display = "block";
+  company.style.display = "flex";
 });
 upArrow2.addEventListener("click", () => {
   downArrow2.style.display = "block";
   upArrow2.style.display = "none";
+  company.style.display = "none";
 });

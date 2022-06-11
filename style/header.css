@@ -54,12 +54,19 @@ nav > .nav-items-visible > ul > li > .up-arrow {
 }
 
 nav > .nav-items-visible > ul > li > ul.sub-items {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 20px;
+  background-color: var(--Almost-White);
   list-style: none;
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--Medium-Gray);
   display: none;
 }
-/* nav > .nav-items-visible > ul > li > ul.sub-items > li {} */
+nav > .nav-items-visible > ul > li > ul.sub-items > li {
+  padding: 10px;
+}
 
 nav > .nav-items-visible > .user-auth {
     color: var(--Medium-Gray);
