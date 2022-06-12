@@ -92,3 +92,75 @@ nav > .nav-items-visible > .user-auth > span.register {
     border: 2px solid var(--Medium-Gray);
     border-radius: 20px;
 }
+
+@media only screen and (min-width: 1200px)
+{
+  header {
+    width: 100%;
+    margin-bottom: 5%;
+    justify-content: flex-start;
+    color: var(--Medium-Gray);
+  }
+  header li:hover {
+    color: var(--Almost-Black);
+  }
+  .logo {
+    width: 10%;
+  }
+  nav {
+    width: 90%;
+  }
+  nav > .nav-items {
+    display: block;
+  }
+  .icon-menu,
+  .icon-close-menu {
+    display: none !important;
+  }
+  nav > .nav-items > ul {
+    width: 60%;
+    text-transform: capitalize;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav > .nav-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav > .nav-items > ul > li {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 15%;
+  }
+  nav > .nav-items > ul > li > ul {
+    position: absolute;
+    list-style-type: none;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: var(--Almost-White);
+    box-shadow: 0 0 13px var(--Medium-Gray);
+    border-radius: 20px;
+    padding: 10px;
+  }
+  nav > .nav-items > ul > li > ul > li {
+    padding: 5px;
+  }
+  .user-auth > span {
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 10px;
+  }
+  .user-auth > span.register {
+    border: 2px solid var(--Medium-Gray);
+    border-radius: 10px;
+  }
+  .user-auth > span.register:hover {
+    border-color: var(--Almost-Black);
+  }
+  .user-auth > span:hover {
+    color: var(--Almost-Black);
+  }
+}

@@ -80,22 +80,30 @@
       </header>
 
       <div class="home-image">
-        <img src="./media/image-hero-mobile.png" alt="home image" />
+        <img class="image-m" src="./media/image-hero-mobile.png" alt="home image mobile" style="display: block;" />
+        <img class="image-d" src="./media/image-hero-desktop.png" alt="home image desktop" style="display: none;" />
       </div>
 
       <div class="home-body">
         <h1>Make remote work</h1>
-        <p>Get your team in sync, no matter your location. Streamline process, create team rituals, and watch productivity soar.</p>
+        <p>
+          Get your team in sync, no matter your location. Streamline process,
+          create team rituals, and watch productivity soar.
+        </p>
         <span>Learn more</span>
       </div>
       <footer>
-        <img src="./media/client-databiz.svg" alt="data biz"/>
-        <img src="./media/client-audiophile.svg" alt="audophile"/>
-        <img src="./media/client-meet.svg" alt="meet"/>
-        <img src="./media/client-maker.svg" alt="maker"/>
+        <img src="./media/client-databiz.svg" alt="data biz" />
+        <img src="./media/client-audiophile.svg" alt="audophile" />
+        <img src="./media/client-meet.svg" alt="meet" />
+        <img src="./media/client-maker.svg" alt="maker" />
       </footer>
     </div>
 
     <script src="./script/nav.js"></script>
+    <script src="./script/home-image.js"></script>
+    <script>
+      console.log(screen.width);
+    </script>
   </body>
 </html>

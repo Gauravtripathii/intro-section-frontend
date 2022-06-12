@@ -6,3 +6,16 @@
 .home-image > img {
   width: 100%;
 }
+
+@media only screen and (min-width: 1200px)
+{
+  .home-image {
+    width: 40%;
+    height: 80%;
+    float: right;
+    margin-right: 5%;
+  }
+  .home-image > img {
+    height: 100%;
+  }
+}

@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 
 .container {
@@ -22,4 +23,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 1200px)
+{
+  .container {
+    display: block;
+  }
 }

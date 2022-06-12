@@ -27,7 +27,24 @@
   letter-spacing: 2px;
 }
 
-/* .home-body > span:hover {
+@media only screen and (min-width: 1200px) {
+  .home-body {
+    width: 40%;
+    height: 60%;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 5%;
+  }
+  .home-body > h1 {
+    font-size: 70px;
+    font-weight: 400;
+  }
+  .home-body > p {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .home-body > span:hover {
     background-color: var(--Almost-White);
     color: var(--Almost-Black);
-} */
+  }
+}

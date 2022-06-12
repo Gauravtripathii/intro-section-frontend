@@ -32,17 +32,6 @@ upArrow.addEventListener("click", () => {
   features.style.display = "none";
 });
 
-
-
-
-
-
-
-
-
-
-
-
 var downArrow2 = document.querySelector(".down-arrow2");
 var upArrow2 = document.querySelector(".up-arrow2");
 var company = document.querySelector(".company");
@@ -57,3 +46,14 @@ upArrow2.addEventListener("click", () => {
   upArrow2.style.display = "none";
   company.style.display = "none";
 });
+
+
+
+
+if (screen.width >=1200)
+{
+  upArrow.style.display = "none";
+  upArrow2.style.display = "none";
+  features.style.display = "none";
+  company.style.display = "none";
+}

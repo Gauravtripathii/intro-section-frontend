@@ -8,3 +8,12 @@ footer > img {
   width: 20%;
   align-self: center;
 }
+
+@media only screen and (min-width: 1200px)
+{
+  footer {
+    width: 40%;
+    height: 10%;
+    margin-left: 5%;
+  }
+}
